@@ -1,6 +1,8 @@
 package models
 
-import "gorm.io/gorm"
+import (
+	"gorm.io/gorm"
+)
 
 type Profile struct {
 	gorm.Model
@@ -10,4 +12,7 @@ type Profile struct {
 	Age       int    `json:"age"`
 	Gender    string `json:"gender"`
 	Location  string `json:"location"`
+
+	User   User
+	Swipes []Swipe
 }
