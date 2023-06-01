@@ -8,4 +8,5 @@ import (
 func Route(e *echo.Echo) {
 
 	e.POST("api/auth/register", controllers.Register)
+	e.POST("api/auth/login", controllers.Login)
 }
