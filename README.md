@@ -1,5 +1,7 @@
 # DatingApp
-
+ - build with golang version 1.20
+ - Echo framework
+ - gorm
 # How to Run
  - clone repo
  - go mod tidy
