@@ -8,7 +8,8 @@
  - create new database with postgres, DB Name = DatingAppDB
  - go run main.go
 
-
+# Dokumentation APi
+- in folder doc_Api
 # About App
 
 1. User: Represents the user of the dating app. It includes attributes such as User ID, Username, Email, Password, and Premium Status.
